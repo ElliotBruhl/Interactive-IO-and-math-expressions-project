@@ -2,7 +2,7 @@
 using std::cout, std::cin;
 
 int main() {
-    //init amount per cookie - can be computed at compile time
+    //init amount per cookie - probably gets inlined anyway but might as well put in the hint for the compiler
     constexpr double cupsSugarPerCookie = 1.5/48;
     constexpr double cupsButterPerCookie = 1.0/48;
     constexpr double cupsFlourPerCookie = 2.75/48;
