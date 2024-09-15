@@ -14,7 +14,7 @@ int main() {
     cout << "What is the principal (initial amount)? ";
     cin >> principal;
 
-    cout << ""
+    cout << "";
 
     return 0;
 }
