@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <cmath>
-using std::cout, std::cin, std::left, std::right, std::setw, std::endl;
+using namespace std;
 
 int main() {
     //init
