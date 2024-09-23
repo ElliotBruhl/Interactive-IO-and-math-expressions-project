@@ -22,7 +22,7 @@ int main() {
     double total = principal * pow((1+rate/timesCompounded), timesCompounded);
 
     //display formatted results
-    cout << std::fixed << std::setprecision(2);
+    cout << fixed << setprecision(2);
     cout << left << setw(20) << "Interest Rate:"     << right << setw(9) << (rate*100) << "%" << endl;
     cout << left << setw(20) << "Times Compounded:"  << right << setw(10) << timesCompounded << endl;
     cout << left << setw(20) << "Principal:"         << right << setw(1) << "$" << setw(9) << principal << endl;
