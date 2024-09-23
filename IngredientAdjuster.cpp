@@ -1,5 +1,5 @@
 #include <iostream>
-using std::cout, std::cin;
+using namespace std;
 
 int main() {
     //init amount per cookie
