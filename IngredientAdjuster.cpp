@@ -1,3 +1,4 @@
+//calculates how much of each ingredient you need to make n number of cookies
 #include <iostream>
 using namespace std;
 
