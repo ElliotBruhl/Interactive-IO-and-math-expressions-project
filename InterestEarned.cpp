@@ -1,3 +1,4 @@
+//calculates how much compound interest is earned for arbitrary amounts, rates, and times compounded
 #include <iostream>
 #include <iomanip>
 #include <cmath>
